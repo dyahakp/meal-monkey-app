@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="z7X-rH-Cnc">
+            <objects>
+                <tabBarController storyboardIdentifier="Main" id="58D-Sg-33T" customClass="ViewController" customModule="MealMonkey" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="uyb-8I-gFw" customClass="CurvedTabBar" customModule="MealMonkey" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="FeM-W3-LF1" kind="relationship" relationship="viewControllers" id="fSi-Lw-CU7"/>
+                        <segue destination="poZ-DT-TWn" kind="relationship" relationship="viewControllers" id="isn-2k-HIX"/>
+                        <segue destination="xtK-pw-mWO" kind="relationship" relationship="viewControllers" id="b4m-C7-Tb1"/>
+                        <segue destination="ALn-8q-hPy" kind="relationship" relationship="viewControllers" id="gMg-lx-Pmw"/>
+                        <segue destination="NgE-uQ-ai8" kind="relationship" relationship="viewControllers" id="14f-Tp-qm2"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pt1-iJ-DEp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1895" y="-564"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="3WM-DM-TPb">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" referencedIdentifier="Home" id="xtK-pw-mWO" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="tab_home" selectedImage="tab_home_selected" id="HJL-8l-aUw"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vwC-ZK-e2y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1278" y="-678"/>
+        </scene>
+        <!--Menu-->
+        <scene sceneID="OYF-DW-hgD">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Menu" referencedIdentifier="Menu" id="FeM-W3-LF1" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Menu" image="tab_menu" selectedImage="tab_menu_selected" id="PML-Qb-aMt"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nEX-Pw-shG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1281" y="-613"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="9k2-i6-4hv">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Profile" referencedIdentifier="Profile" id="ALn-8q-hPy" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Profile" image="tab_profile" selectedImage="tab_profile_selected" id="XXR-JS-KXn"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D90-Q8-cZd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1264" y="-564"/>
+        </scene>
+        <!--Offers-->
+        <scene sceneID="ivg-ZL-8hD">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Offers" referencedIdentifier="Offers" id="poZ-DT-TWn" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Offers" image="tab_offers" selectedImage="tab_offers_selected" id="yik-lN-7Hv"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aGx-yC-geU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1265" y="-505"/>
+        </scene>
+        <!--More-->
+        <scene sceneID="UuZ-a5-9Vh">
+            <objects>
+                <viewControllerPlaceholder storyboardName="More" referencedIdentifier="More" id="NgE-uQ-ai8" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="More" image="tab_more" selectedImage="tab_more_selected" id="R0H-Un-qDY"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cPV-LQ-B41" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1263" y="-431"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="uyb-8I-gFw">
+            <size key="intrinsicContentSize" width="-1" height="83"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="tab_home" width="72" height="72"/>
+        <image name="tab_home_selected" width="72" height="72"/>
+        <image name="tab_menu" width="14" height="14"/>
+        <image name="tab_menu_selected" width="14" height="14"/>
+        <image name="tab_more" width="16" height="16"/>
+        <image name="tab_more_selected" width="16" height="16"/>
+        <image name="tab_offers" width="16.333333969116211" height="16"/>
+        <image name="tab_offers_selected" width="16.333333969116211" height="16"/>
+        <image name="tab_profile" width="13.333333015441895" height="17.666666030883789"/>
+        <image name="tab_profile_selected" width="13.333333015441895" height="17.666666030883789"/>
+    </resources>
+</document>
